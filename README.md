@@ -6,7 +6,7 @@ Include the SDK
 
 Call the endpoint like example below
 ```
-var mps=MaePaySoh('6ca7ce5f2112c6733d295991dc55649aa0610ae5');
+var mps=MaePaySoh('6ca7ce5f2112c6733d295991dc55649aa0610ae5'); // pass API Key here
 mps.request({
 				endpoint:'candidate/list',
 				onComplete:function(req){
