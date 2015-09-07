@@ -58,7 +58,7 @@
             
             var constructParams=function(params){
                 url = Object.keys(params).map(function(k) {
-                    return encodeURIComponent(k) + '=' + encodeURIComponent(a[k])
+                    return encodeURIComponent(k) + '=' + encodeURIComponent(params[k])
                 }).join('&');
                 return url;
             };
